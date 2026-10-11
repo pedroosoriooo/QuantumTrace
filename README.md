@@ -7,7 +7,7 @@ Version 0.3.3, validated against the partner starter during JunctionX Lisbon 202
 
 Built by **Hidden Signal**. This repository contains the final local app,
 source code, 86 automated tests, documented assessment policy, synthetic
-challenge inputs, additional examples and reproducible reports.
+challenge inputs, synthetic examples and reproducible reports.
 
 **Start on Windows:** download the repository ZIP, extract it, then open
 `INICIAR_APP.cmd` in the project folder. Python 3.10+ is required. Install
@@ -19,9 +19,6 @@ without it.
 **Reproduce the challenge run:** `python3 run_demo.py`.
 **Run the tests:** `python3 -m unittest discover -s tests -v`.
 
-[Presentation PDF](docs/QuantumTrace_Slides.pdf) ·
-[PowerPoint](docs/QuantumTrace.pptx) ·
-[Demo script](docs/QuantumTrace_Roteiro_Apresentacao.md) ·
 [Validation and limits](VALIDATION.md)
 
 The project runs locally; this repository URL provides the source and
@@ -58,11 +55,6 @@ locators and recognised crypto evidence, so treat exports as project data.
 The API binds to `127.0.0.1` only. The browser uses a per-launch session token,
 and foreign origins are rejected. No cloud hosting, AWS account or LLM is
 required. See `APP_API.md` for endpoints and `QUICKSTART_PT.md` for Windows steps.
-
-The bundled `Preparacao/` folder sits beside `INICIAR_APP.cmd` and includes
-the presentation guide and eight additional synthetic examples. Start with
-`Preparacao/COMECA_AQUI.md`; on Windows, `Preparacao/VALIDAR_EXEMPLOS.cmd`
-checks those examples against manual expectations using this project's core.
 
 ## Run the synthetic demo
 

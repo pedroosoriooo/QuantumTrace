@@ -7,3 +7,10 @@ data/
 *.egg-info/
 dist/
 build/
+
+# Personal presentation preparation stays outside the public repository.
+/Preparacao/
+/DEMO_PT.md
+/docs/QuantumTrace_Roteiro*
+/docs/QuantumTrace_Guia_dos_Ficheiros*
+/docs/*.pptx
