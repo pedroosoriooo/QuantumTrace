@@ -1,0 +1,15 @@
+{
+  "fixture_notice": "SYNTHETIC learning/demo data, not provided by the challenge partner",
+  "kms_keys": [
+    {"id": "legacy-signing", "KeySpec": "RSA_2048", "KeyUsage": "SIGN_VERIFY"},
+    {"id": "symmetric-storage", "algorithm": "AES", "key_bits": 256},
+    {"id": "unknown-size", "algorithm": "AES"},
+    {"id": "migration-kem", "algorithm": "ML-KEM-768"},
+    {"id": "migration-signature", "algorithm": "ML-DSA-65"},
+    {"id": "legacy-pqc-name", "algorithm": "Kyber768"}
+  ],
+  "load_balancer": {
+    "cipher_suites": ["TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256", "TLS_AES_256_GCM_SHA384"],
+    "description": "Documentation mentions RSA, but prose is not cryptographic evidence."
+  }
+}
