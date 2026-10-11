@@ -29,6 +29,10 @@ explicit rules and requires no LLM or paid API. Development was AI-assisted.
 
 
 
+## Explore the hosted demo
+
+[Open QuantumTrace Demo](https://quantumtrace-hidden-signal.plumfrog.chatgpt.site) to inspect saved real audit reports and the 50-second illustrated video. The AES examples were scanned separately on synthetic inputs. New file and folder scans run in the local app.
+
 ## Open the local app
 
 Extract the complete release ZIP. On Windows, open `INICIAR_APP.cmd` inside
