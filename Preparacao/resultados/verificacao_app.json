@@ -1,0 +1,13 @@
+{
+  "tool_version": "0.3.3",
+  "eight_manual_cases_via_http": "passed",
+  "HTTP_matches_CLI_findings": true,
+  "fresh_key_length_change_via_http": "passed",
+  "comparison_added": 1,
+  "comparison_removed": 1,
+  "comparison_score_delta": null,
+  "priority_groups": 7,
+  "offline_export": "passed",
+  "history_runs": 3,
+  "limits": "Local Linux HTTP and DOM checks; no Windows launcher or native browser visual validation."
+}
