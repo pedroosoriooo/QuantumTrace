@@ -1,0 +1,7 @@
+{
+  "servicos": [
+    {"nome": "assinatura-exemplo", "SigningAlgorithm": "RSA", "KeySize": 3072},
+    {"nome": "arquivo-exemplo", "Algorithm": "AES", "KeySize": 256},
+    {"nome": "troca-exemplo", "KEM": "ML-KEM-768"}
+  ]
+}
